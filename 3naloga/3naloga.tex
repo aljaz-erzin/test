@@ -1,0 +1,73 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8x]{inputenc}   % omogoča uporabo slovenskih črk kodiranih v formatu UTF-8
+\usepackage[slovene]{babel}    % naloži, med drugim, slovenske delilne vzorce
+
+
+
+\title{Perspektiva}
+\author{Aljoša Rakita\\
+aljo.aljo.aljo@hotmail.com\\
+\ \\
+možni MENTOR: prof. dr. Franc Solina \\
+Fakulteta za računalništvo in informatiko Univerze v Ljubljani
+\date{\today}         
+}
+
+
+\begin{document}
+\maketitle
+
+Do konca predavanj napiši dokument na najmanj dveh polnih straneh o možni diplomski temi, v seznamu literature naj bodo trije članki iz znanstvenih revij
+(tip literature v Bib\TeX u: article), kjer je vsaj eden od avtorjev pedagog na FRI. 
+Za generiranje seznama literature uporabite Bib\TeX . 
+
+
+
+\section{Motiv za diplomsko nalogo}
+
+Zakaj me ta tema zanima? 
+V tem, zadnjem letniku faksa sem ses spoznal s področjem računalniškega vida. To me je hitro pritegnilo zato sem se odločil tudi za diplomsko nalogo iz te smeri.
+Zadnjih nekaj let je pri študentih arhitekture in likovnih smeri, ki so povezane z risanjem prostora po načelih prostorskih ključev oziroma linearne
+perspektive, opaziti težave pri transferju realnega v likovni prostor.
+
+
+\section{Kako so se s to temo dosedaj ukvarjali učitelji na FRI?}
+
+
+S računalniškim vidom se je na fakulteti za računalništvo in informatiko ukvarjalo veliko profesorjev in asistentov (Danijel Skočaj, Matej Kristan, Franc Solina,Luka Čehovin Zajc ...), ki so raziskovali hierarhične modele v vizualnem sledenju \cite{hierarhicni} in bili pri tem uspešni saj predstavljena eksperimentalna analiza na obstoječih primerjalnih zbirkah podatkov pokaže, da opisana sledilnika spadata v sam vrh raziskav na področju kratkoročnega vizualnega sledenja ter se še posebej odlikujeta v sledenju netogih objektov.
+Zaposleni na našem faksu so raziskovali in razvijali sisteme za avtomatsko analizo aktivnosti ekip v igri košarke \cite{pervse2009trajectory} , pri čemer so razvili sistem in njegovo učinkovitost ter robustnost predstavili v dveh igrah ter 71 primerih napada.
+
+
+\section{Kaj je konkretni cilj diplomske naloge in kateri so glavni koraki do tega cilja?}
+
+Cilj je stvaritev vmesnika ki bi ob primerni uporabi v učnem procesu, opo-
+zarjal na razlike med doživljanjem sveta prek vmesnikov in brez njih ter jim
+tako omogočil lažje prehajanje iz realnega (skozi digitalni) v likovni prostor.
+To bomo dosegli z razvojem android aplikacije za mobilne platforme, ki je bo preprost za uporabo.
+
+
+\section{S kakšnimi orodji boš prišel do cilja}
+
+Pri izdelavi diplomske naloge bomo večino dela naredili v razvojnem okolju
+Android studio, ki poenostavi razvoj mobilnih aplikacij. Z različnimi implementacijami algoritmov za zaznavanje "ključnih točk" in prepoznavanje objetov so se seveda že ukvarjali drugi ljudje. Eksperimenti z implementacijo  RANSAC, SIFT in SURF algoritmov v okolju android so pokazali, da je mogoče izvajati sledenje objektom s procesorsko močjo mobilnih naprav v skoraj realnem času \cite{olsson2009distributed}
+
+
+\section{Kako bomo preizkusili rešitev ali ustreza zadanim ciljem?}
+
+Rešitev bomo predstavili tako, da bomo demonstrirali njeno delovanje na
+realnem primeru v realnem času.
+
+
+\section{Zaključek: zakaj je izbrani mentor primeren za predlagano temo?}
+
+Profesor doktor Franc Solina je predstojnk laboratorija za računlniški vid, ki se ukvarja z raziskavami na istem področju, kot je tema te diplomske naloge. Poleg tega je bil profesor mentor že velikemu številu študentov.
+
+\bibliographystyle{plain}
+\bibliography{literatura}
+
+\end{document}  
+
+
+
+
